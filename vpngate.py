@@ -460,8 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "https://bestcf.pages.dev/random-region/mix.txt:443,www.carousell.sg:443, www.speedtest.net:443, fbi.gov:443, www.sage.com:443, guide.for.edu.sg:443, kniu.cc:443, images.chesscomfiles.com:443, uspto.gov:443, www.crazygames.fr:443, markmonitor.com:443, www.vmware.com:443, linear.app:443, stores.staples.com:443, baota.us.kg:443, newsroom.avalara.com:443, www.udacity.com:443, securecircle.com:443, store.ubi.com:443, openai.com:443, hzytjy.cn:443, dynadot.com:443, login.rockwellautomation.com:443, www.blibli.com:443, www.leics.police.uk:443,"
-        "spring.io:443, m.iyf.tv:443, themeisle.com:443, staticdelivery.nexusmods.com:443, www.dbs.com.sg:443, hostinger.com:443, cf.1o.ee:443",
+        "bestcf.pages.dev/tiancheng/kr.txt:443,bestcf.pages.dev/tiancheng/jp.txt:443,"
+        "bestcf.pages.dev/random-region/mix.txt:443",
     ).split(",")
     if h.strip()
 ]
